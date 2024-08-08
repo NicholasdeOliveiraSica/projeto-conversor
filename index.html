@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <img src="assets/logo.gif" alt="gif de logo" id="logo">
     <main>
         <section>
             <label>
                 Converter <strong>de</strong>
-                <select class="select select1">
+                <select class="select select1" disabled>
                     <option> R$ Real Brasileiro</option>
                 </select>
             </label>
 
             <label>
                 Converter <strong>para</strong>
-                <select class="select select2">
+                <select class="select select2" >
                     <option value="dolar"> US$ Dolar Americano</option>
-                    <option value="libra"> £  Libra </option>
-                    <option value="euro"> €  Euro</option>
+                    <option value="libra"> £ Libra </option>
+                    <option value="euro"> Euro €</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
                 </select>
             </label>
 
@@ -35,7 +38,7 @@
 
             <aside>
                 <div id="bloco1">
-                    <img class="bandeira andeira1" src="assets/real.png" alt="Bandeira 1">
+                    <img class="bandeira bandeira1" src="assets/real.png" alt="Bandeira 1">
                     <p class="moeda moeda1">Real</p>
                     <p class="valor valor1"> R$ 0,00</p>
                 </div>
@@ -43,13 +46,14 @@
                 <img src="assets/Vector.png" alt="Seta de conversão">
 
                 <div id="bloco2">
-                    <img class="bandeira andeira2" src="assets/dolar.png" alt="Bandeira 2">
+                    <img class="bandeira bandeira2" src="assets/dolar.png" alt="Bandeira 2">
                     <p class="moeda moeda2">Dólar Americano</p>
-                    <p class="valor valor2"> US$ 0,00</p>
+                    <p class="valor valor2"> $0,00</p>
                 </div>
             </aside>
         </section>
     </main>
 </body>
 <script src="script.js"></script>
+
 </html>
